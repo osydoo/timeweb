@@ -1,14 +1,9 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import React from 'react';
+import { useSelector } from 'react-redux';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
-import TextField from '@material-ui/core/TextField';
 import Grid from '@material-ui/core/Grid';
-import CreateIcon from '@material-ui/icons/Create';
-import PlusImg from '../components/img/thumbnail.png'
-
 const useStyles = makeStyles(theme => ({
     paper: {
         padding: theme.spacing(3, 2),
